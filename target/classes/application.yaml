@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: demo
+
+  datasource:
+    url: jdbc:postgresql://localhost:5433/diag
+    username: postgres
+    password: jangour
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+
+camunda:
+  bpm:
+    database:
+      type: postgres
+      schema-update: true
+
+camunda.bpm.admin-user:
+  id: demo
+  password: demo

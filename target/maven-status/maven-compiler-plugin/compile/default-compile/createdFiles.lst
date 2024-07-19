@@ -1,0 +1,5 @@
+com\example\workflow\controller\ActivityInstanceController.class
+com\example\workflow\entity\ActivityInstance.class
+com\example\workflow\service\ActivityInstanceService.class
+com\example\workflow\repository\ActivityInstanceRepository.class
+com\example\workflow\Application.class
